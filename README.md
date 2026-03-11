@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains the code developed במסגרת the Bachelor’s Thesis in Mathematics devoted to the study of several text vectorization techniques for classification tasks. The main objective of the thesis is to formalize and mathematically analyze the process of **vector representation of textual documents**, comparing three fundamental methods: **TF-IDF**, **LSA**, and **LDA**. In addition to its theoretical foundation, the project applies these representations to several text datasets (spam emails, Twitter messages, and the *20 Newsgroups* collection) in order to evaluate their effectiveness in binary classification through supervised models.
+This repository contains the code developed in the Bachelor’s Thesis in Mathematics devoted to the study of several text vectorization techniques for classification tasks. The main objective of the thesis is to formalize and mathematically analyze the process of **vector representation of textual documents**, comparing three fundamental methods: **TF-IDF**, **LSA**, and **LDA**. In addition to its theoretical foundation, the project applies these representations to several text datasets (spam emails, Twitter messages, and the *20 Newsgroups* collection) in order to evaluate their effectiveness in binary classification through supervised models.
 
 Through this combined approach, the thesis provides a comparison between a model based on the original vocabulary (TF-IDF) and two latent or “thematic” models that reduce dimensionality (LSA and LDA). The available code makes it possible to reproduce the experiments conducted, including text preprocessing, vector transformation, and the training and evaluation of classifiers for each representation.
 
