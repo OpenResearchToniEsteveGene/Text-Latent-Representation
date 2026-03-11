@@ -143,7 +143,7 @@ Therefore, the final representation of a document is the vector $\theta_d \in \m
    These scripts will download the *20 Newsgroups* corpus, if it is not already cached, through *scikit-learn*. The problem will be converted into a binary classification task by defining a target label, for example, identifying documents related to sports topics. Each script will generate the corresponding vector representation of the documents, whether TF-IDF, SVD-based reduction to latent components, or topic distributions through LDA, and will then train a classification model, specifically **XGBoost** for this dataset. Finally, the mean AUC-ROC obtained under cross-validation will be displayed.
 5. **Analysis of results:** Once all scripts have been executed, the AUC-ROC metrics may be compared in order to determine which vector representation performs best on each dataset. In general, it is observed that the TF-IDF-based representation tends to provide the best predictive performance, although the latent representations, namely LSA and LDA, achieve comparable results while offering the advantage of reducing dimensionality and capturing latent semantic relationships.
 
-### Bibliografia
+### References
  - Blei, DM, AYNgiMIJordan(2003). “Latent Dirichlet Allocation”. A: Journal of Machine Learning Research 3.
  - Deerwester, Scott et al. (1990). “Indexing by latent semantic analysis”. A: Journal of the American society for information science 41.6, pàg. 391-407.
  -  Valle-Lisboa, Juan C i Eduardo Mizraji (2007). “The uncovering of hidden structures by latent semantic analysis”. A: Information sciences 177.19, pàg. 4122-4147.
